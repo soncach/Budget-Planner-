@@ -1,9 +1,9 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-/*
- * @Authoe Sonia Cachon 
- * start: 6/13/2024
+/**
+ * @author Sonia Cachon 
+ * started: 6/13/2024
  * Represents A login page
  */
 public class Login {
@@ -25,7 +25,7 @@ public class Login {
             // instead of throwing an exception maybe just change it to an print statement 
             throw new LoginExceptions("Username doesn't exist");
         }else{
-             // instead of throwing an exception maybe just change it to an print statement 
+            // instead of throwing an exception maybe just change it to an print statement 
             throw new LoginExceptions("Password is incorrect.");
         }
     }
@@ -102,9 +102,6 @@ public class Login {
             CreateUser();
             loginUser();
         }
-        
-
-
     }
 
 
